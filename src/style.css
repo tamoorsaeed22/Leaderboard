@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow: visible;
 }
 
 body {
@@ -91,6 +92,9 @@ input {
   padding: 10px;
 }
 
-.score-table:nth-child(even) {
-  background-color: #f2f2f2;
+.submit {
+  background: 0;
+  border: 3px solid #000;
+  align-self: flex-end;
+  padding: 8px 20px;
 }
